@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(255, 242, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    padding: 20px 0 0 0;
+}
+
+h1, span, a, footer p {
+    color: rgb(226, 80, 12);
+}
+
+p {
+    color: rgb(34, 16, 5);
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+article {
+    padding: 10px 30px;
+}
+
+article:first-child {
+    border-left: 4px solid rgb(255, 141, 88);
+}
+
+img {
+    width: 90%;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+article p {
+    text-align: justify;
+}
+
+hr {
+    border: 0.5px solid rgb(255, 160, 97);
+}
