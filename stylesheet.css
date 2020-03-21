@@ -5,9 +5,13 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     background-color: white;
+}
+
+section {
+    display: flex;
 }
 
 header {
@@ -28,19 +32,33 @@ a {
     font-weight: bold;
 }
 
+main {
+    columns: 3;
+    width: 80%;
+}
+
+aside {
+    width: 20%;
+    margin-top: 100px;
+    padding-right: 30px;
+}
+
 article {
     padding: 10px 30px;
 }
 
 article:first-child {
     border-left: 4px solid rgb(255, 141, 88);
+    border-bottom: 4px solid rgb(255, 141, 88);
 }
 
 img {
-    width: 80%;
     margin: auto;
     display: block;
+    height: 150px;
+    width: 100%;
     margin-bottom: 40px;
+    object-fit: cover;
 }
 
 article p {
